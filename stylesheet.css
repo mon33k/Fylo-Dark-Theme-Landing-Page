@@ -5,7 +5,9 @@ body {
     flex-direction: column;
     background:hsl(218, 28%, 13%);
     width: 1440px;
+    margin: 0px;
 }
+
 
 .navbar {
     display: flex;
@@ -42,14 +44,25 @@ body {
 
 .feature-container {
     display:flex;
-    /* flex-direction: column; */
-
-    align-items: center;
-    /* flex-wrap: wrap;  */
-    /* flex-direction: row; */
-    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
 }
 
 .feature-container > .feature-item {
     width: 200px;
+    align-items: center;
+
+}
+
+.main-feature {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    width: auto;
 }
