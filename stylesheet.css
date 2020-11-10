@@ -40,6 +40,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: hsl(217, 28%, 15%);
+    background-image: url('./images/bg-curvy-desktop.svg');
+    background-position: bottom; 
+    background-repeat: no-repeat;
 }
 
 .feature-container {
@@ -50,13 +54,13 @@ body {
     width: 65rem;
     height: 40rem;
     margin: 0 auto;      
-    border: 2px solid black;
+    background:hsl(218, 28%, 13%);
 }
 
 .feature-container > .feature-item {
     width: 400px;
     justify-content: center;
-
+    align-items: center;
 }
 
 .main-feature {
@@ -69,4 +73,13 @@ body {
     display: flex;
     justify-content: center;
     width: auto;
+}
+
+
+
+
+.bottom-content-container {
+    display: flex;
+    
+    background: hsl(216, 53%, 9%)
 }
