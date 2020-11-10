@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&display=swap');
 
 body {
     display: flex;
@@ -46,6 +47,26 @@ body {
     background-repeat: no-repeat;
 }
 
+.intro-nested {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.intro-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #ffff;
+}
+
 .feature-container {
     display:flex;
     justify-content: center;
@@ -61,6 +82,18 @@ body {
     width: 400px;
     justify-content: center;
     align-items: center;
+}
+
+.feature-item > h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.feature-item > p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #ffff;
 }
 
 .main-feature {
@@ -80,6 +113,6 @@ body {
 
 .bottom-content-container {
     display: flex;
-    
+
     background: hsl(216, 53%, 9%)
 }
