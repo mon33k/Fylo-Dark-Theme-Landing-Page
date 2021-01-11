@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="./assets/css/all.css">
   <link rel="stylesheet" href="./stylesheet.css">
-
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <style>
+  <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
+  </style>
 </head>
 
 <body>
@@ -84,16 +84,14 @@
   <div class="main-feature">
     <img src="images/illustration-stay-productive.png">
     <div class="feature-item">
-      <h3>Stay productive, wherever you are</h3>
-      <p class="feature-item-text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-        storage needs.</p>
+      <h3 class="feature-header">Stay productive, <br> wherever you are</h3>
       <p class="feature-item-text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
         storage needs.</p>
       <p class="feature-item-text">
         Securely share files and folders with friends, family and colleagues for live collaboration. No email 
         attachments required.
       </p>
-      <button>See how Fylo works</button>
+      <button >See how Fylo works</button>
     </div>
   </div>
   
@@ -104,11 +102,13 @@
         Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
       </p>
     
-      <ul class="testimonial-author">
-        <li>Satish Patel</li>
-        <li>Founder & CEO, Huddle
-        </li>
-      </ul>
+      <div class="testimonial-author">
+        <img class="author-pic" src="./images/profile-1.jpg">
+        <ul class="author-info">
+          <li class="author-name">Satish Patel</li>
+          <li class="author-title">Founder & CEO, Huddle</li>
+        </ul>
+      </div>
     </div>
   
     <div class="testimonial-item">
@@ -117,10 +117,13 @@
         become a well-oiled collaboration machine.
       </p>
 
-      <ul class="testimonial-author">
-        <li>Bruce McKenzie</li>
-        <li>Founder & CEO, Huddle</li>
-      </ul>
+      <div class="testimonial-author">
+        <img class="author-pic" src="./images/profile-2.jpg">
+        <ul class="author-info">
+          <li class="author-name">Bruce McKenzie</li>
+          <li class="author-title">Founder & CEO, Huddle</li>
+        </ul>
+      </div>
     </div>
 
     <div class="testimonial-item">
@@ -129,40 +132,66 @@
         become a well-oiled collaboration machine.
       </p>
 
-      <ul class="testimonial-author">
-        <li>Iva Boyd</li>
-        <li>Founder & CEO, Huddle</li>
-      </ul>
+      <div class="testimonial-author">
+        <img class="author-pic" src="./images/profile-3.jpg">
+        <ul class="author-info">
+          <li class="author-name">Iva Boyd</li>
+          <li class="author-title">Founder & CEO, Huddle</li>
+        </ul>
+      </div>
     </div>
   </div>
 
 
   <div class="float-box">
-    <h3>Get early access today</h3>
+    <div class="float-info">
+      <h3 class="float-header">Get early access today</h3>
+      <p class="float-text">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+        questions, our support team would be happy to help you.</p>
+    </div>
 
-    <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-      questions, our support team would be happy to help you.</p>
+    <div class="float-input">
+      <input class="input-box" type="text" placeholder="email@example.com">
+      <button class="input-submit">Get Started For Free</button>
+    </div>
   
-    <button>Get Started For Free</button>
+     
   </div>
   
   <div class="bottom-content-container">
-    <img >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-    dolore magna aliqua
+    <div class="footer-logo-container"><img class="footer-logo" src="images/logo.svg"></div>
 
-    +1-543-123-4567
-    example@fylo.com
+    <div class="footer-text">
+      <img class="footer-location-logo" src="images/icon-location.svg">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua
+      </p>
+    </div>
+  
+    <ul class="footer-contact">
+      <li><img class="footer-phone-logo" src="images/icon-phone.svg">+1-543-123-4567</li>
+      <li><img class="footer-email-logo" src="images/icon-email.svg">example@fylo.com</li>
+    </ul>
 
-    About Us
-    Jobs
-    Press
-    Blog
+   
+    <ul class="footer-links">
+      <li>About Us</li>
+      <li>Jobs</li>
+      <li>Press</li>
+      <li>Blog</li>
+      <li>Contact Us</li>
+      <li>Terms</li>
+      <li>Privacy</li>
+    </ul>
 
-    Contact Us
-    Terms
-    Privacy
+    <ul class="footer-logo-links">
+      <li><i class="fab fa-facebook-f"></i></li>
+      <li><i class="fab fa-twitter"></i></li>
+      <li><i class="fab fa-instagram"></i></li>
+    </ul>
   </div>
+
 
   
 
